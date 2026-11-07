@@ -105,4 +105,8 @@ textarea { resize: vertical; min-height: 125px; }
   .contact-intro { padding-top: 0; }
   .footer-inner { flex-direction: column; gap: 5px; }
   .nav-links { gap: 18px; }
+  .avatar-photo {
+    display: block;
+    object-fit: cover;
+}
 }
