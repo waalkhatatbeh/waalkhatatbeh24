@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | 174180 | Waqar Amer Abaidallah AlKhatatbeh</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html">WA<span>.</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="contact.html">Contact Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <div class="container contact-layout">
+      <section class="contact-intro">
+        <p class="eyebrow">LET'S TALK</p>
+        <h1>Contact<br><span>Me.</span></h1>
+        <p>Have a question, an idea, or a message to share? Fill out the form and I will be glad to hear from you.</p>
+        <div class="contact-detail">
+          <span class="info-label">University email</span>
+          <a href="mailto:waalkhatatbeh24@cit.just.edu.jo">waalkhatatbeh24@cit.just.edu.jo</a>
+        </div>
+        <div class="contact-detail">
+          <span class="info-label">Location</span>
+          <p>Jordan</p>
+        </div>
+      </section>
+
+      <section class="form-card">
+        <p class="eyebrow">CONTACT FORM</p>
+        <h2>Send a message</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="fullName">Full Name <span>*</span></label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address <span>*</span></label>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="country">Country <span>*</span></label>
+            <select id="country" name="country" required>
+              <option value="">Select your country</option>
+              <option value="Jordan">Jordan</option>
+              <option value="Saudi Arabia">Saudi Arabia</option>
+              <option value="United Arab Emirates">United Arab Emirates</option>
+              <option value="Palestine">Palestine</option>
+              <option value="Egypt">Egypt</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="comments">Comments <span>*</span></label>
+            <textarea id="comments" name="comments" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button class="button button-primary submit-button" type="submit">Submit message <span aria-hidden="true">→</span></button>
+          <p class="form-note">All fields are required.</p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><span>© 2026 Waqar Amer Abaidallah AlKhatatbeh</span><a href="index.html">Back to Home ↑</a></div>
+  </footer>
+</body>
+</html>
